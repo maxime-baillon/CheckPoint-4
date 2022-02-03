@@ -1,8 +1,8 @@
 const dataQuiz = {
   titre: "! Quiz !",
-  quizz: [
+  data: [
     {
-      qestion: "Quel couleur est le ciel ?",
+      question: "Quel couleur est le ciel ?",
       choix: ["rouge", "bleu", "vert", "jaune"],
       reponse: "bleu",
     },

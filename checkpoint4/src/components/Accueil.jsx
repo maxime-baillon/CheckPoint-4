@@ -1,12 +1,12 @@
 import React from "react";
 import dataQuiz from "../data/Data";
 
-function Accueil({ clique }) {
+function Accueil({ start }) {
   return (
-    <div>
+    <div className="general">
       <div>
         <h1 className="titreAccueil">{dataQuiz.titre}</h1>
-        <button className="buttonAccueil" type="button" onClick={clique}>
+        <button className="button" type="button" onClick={start}>
           Commencer
         </button>
       </div>

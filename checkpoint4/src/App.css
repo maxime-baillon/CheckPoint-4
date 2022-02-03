@@ -2,18 +2,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 50%;
   text-align: center;
 }
 
-.titreAccueil {
+.general {
   text-align: center;
-  max-width: 400px;
-  width: 100%;
 }
 
-.buttonAccueil {
+.button {
   cursor: pointer;
+}
+
+.labelQuestion {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,11 +29,10 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  margin-top: 20px;
 }
